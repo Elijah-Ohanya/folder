@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border: 2px dashed;
+    min-height: 100vh;
+}
+
+.container-footer{
+    border: 2px dashed;
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.footer{
+    border: 2px dashed;
+}
