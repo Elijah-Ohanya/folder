@@ -12,12 +12,18 @@
 .container-footer{
     border: 2px dashed;
     min-height: 20px;
-    display: flex;
+    display: flex; 
     align-items: center;
     justify-content: space-between;
-    
 }
 
 .footer{
     border: 2px dashed;
+
+}
+
+.second-leg{
+    border: 2px dashed;
+    display: flex;
+    margin-right: 30px;
 }
