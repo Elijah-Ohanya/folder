@@ -26,24 +26,43 @@
 .second-leg{
     border: 2px dashed;
     display: flex;
-    flex-wrap:nowrap;
-    justify-content: space-between;
-    padding:10px;
+   
 }
 
 .inner-cont{
-    border: 2px dashed;
+    border: 2px dashed red;
     min-height: 60vh;
+    display: flex;
 }
 
 
 .first-cont{
-    border: 2px solid;
-    min-height:30vh ;
+    border: 2px solid green;
+    min-height:30vh;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .second-cont{
-    border: 2px solid;
+    border: 2px solid blue;
     min-height:30vh ;
+    width: 40%;
+}
+
+.content{
+    border: 2px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    width: 40%;
+
+}
+
+img{
+    border: 2px solid blue;
+    width: 40%;
 
 }
