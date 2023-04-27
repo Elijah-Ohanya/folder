@@ -9,21 +9,41 @@
     min-height: 100vh;
 }
 
-.container-footer{
+.container-header{
     border: 2px dashed;
-    min-height: 20px;
+    min-height: 10vh;
     display: flex; 
     align-items: center;
     justify-content: space-between;
+    font-size:30px ;
+
 }
 
-.footer{
+.header{
     border: 2px dashed;
-
 }
 
 .second-leg{
     border: 2px dashed;
     display: flex;
-    margin-right: 30px;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    padding:10px;
+}
+
+.inner-cont{
+    border: 2px dashed;
+    min-height: 60vh;
+}
+
+
+.first-cont{
+    border: 2px solid;
+    min-height:30vh ;
+}
+
+.second-cont{
+    border: 2px solid;
+    min-height:30vh ;
+
 }
